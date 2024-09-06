@@ -9,7 +9,6 @@ function make_plot (x_data, y_data, graph_title, x_Lavel, y_label, x2_data, y2_d
     title (graph_title);
     if nargin == 8
         hold on;
-        plot (2x_data, y2_data, y2_marker);
+        plot (x2_data, y2_data, y2_marker);
     end
-    
 end
