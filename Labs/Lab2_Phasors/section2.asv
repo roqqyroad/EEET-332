@@ -1,0 +1,4 @@
+init();
+t = linspace(0, 10, 1751);
+
+makeplot(x, y, '(x - 16)/(x - 4)', 'x', 'y');
